@@ -1,0 +1,64 @@
+@import "computer-modern-serif";
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import "variables";
+@import "base";
+
+body {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: $base-font-color;
+  background-color: $base-background-color;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 1.5rem 0;
+}
+
+#container {
+  @include outer-container;
+}
+
+section#content {
+  @include shift(3);
+  @include span-columns(6);
+}
+
+#logo {
+  @include span-columns(12);
+  margin: 1.5rem 0 0;
+
+  a {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background-image: $logo-url;
+    background-repeat: no-repeat;
+  }
+}
+
+.intro {
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.button {
+  @include transition;
+  display: inline-block;
+  padding: 0 2em;
+  background: transparent;
+  color: $primary-color;
+  border: 0.1em solid $primary-color;
+  border-radius: .1em;
+  text-decoration: none;
+  font-size: 1rem;
+
+  &:hover {
+    color: $dark-grey;
+    border-color: $dark-grey;
+  }
+}
