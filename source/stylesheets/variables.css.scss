@@ -11,7 +11,7 @@ $base-line-height: 1.5rem;
 
 $base-background-color: $light-grey;
 
-$logo-url: url(/images/logo.svg);
+$logo-url: url(../images/logo.svg);
 
 @mixin transition($property: all) {
   transition: all 0.1s linear;
