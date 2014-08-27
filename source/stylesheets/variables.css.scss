@@ -1,6 +1,7 @@
 $dark-grey: rgb(53, 53, 53);
 $light-grey: rgb(242, 240, 240);
 $primary-color: rgb(211, 99, 99);
+$secondary-color: rgb(91, 90, 134);
 
 $computer-modern-serif: "Computer Modern Serif";
 $base-font-family: $computer-modern-serif, serif;
@@ -8,6 +9,8 @@ $base-font-color: $dark-grey;
 $base-font-weight: normal;
 $base-font-size: 16px;
 $base-line-height: 1.5rem;
+$base-link-color: $secondary-color;
+$base-link-hover-color: $dark-grey;
 
 $base-background-color: $light-grey;
 

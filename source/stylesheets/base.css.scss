@@ -17,6 +17,16 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 1.5rem 0;
 }
 
+a {
+  @include transition;
+  color: $base-link-color;
+  outline: none;
+
+  &:hover {
+    color: $base-link-hover-color;
+  }
+}
+
 #container {
   @include outer-container;
 }
@@ -38,6 +48,7 @@ section#content {
     background-image: $logo-url;
     background-repeat: no-repeat;
     text-indent: -100%;
+    font-size: 0px;
   }
 }
 
