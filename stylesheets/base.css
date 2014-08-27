@@ -42,6 +42,15 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 1.5rem 0; }
 
 /* line 20, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+a {
+  transition: all 0.1s linear;
+  color: #5b5a86;
+  outline: none; }
+  /* line 25, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+  a:hover {
+    color: #353535; }
+
+/* line 30, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 #container {
   max-width: 68em;
   margin-left: auto;
@@ -52,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: table;
     clear: both; }
 
-/* line 24, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 34, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 section#content {
   margin-left: 25.58941%;
   float: left;
@@ -63,7 +72,7 @@ section#content {
   section#content:last-child {
     margin-right: 0; }
 
-/* line 29, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 39, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 #logo {
   float: left;
   display: block;
@@ -73,7 +82,7 @@ section#content {
   /* line 38, /Users/robbie/repos/richmond-computer-club/source/stylesheets/neat/grid/_span-columns.scss */
   #logo:last-child {
     margin-right: 0; }
-  /* line 33, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+  /* line 43, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
   #logo a {
     display: block;
     margin: 0 auto;
@@ -81,15 +90,16 @@ section#content {
     height: 100px;
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
-    text-indent: -100%; }
+    text-indent: -100%;
+    font-size: 0px; }
 
-/* line 44, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 55, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 .intro {
   font-size: 1.5rem;
   line-height: 1.5em;
   text-align: center; }
 
-/* line 50, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 61, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 .button {
   transition: all 0.1s linear;
   display: inline-block;
@@ -100,7 +110,7 @@ section#content {
   border-radius: .1em;
   text-decoration: none;
   font-size: 1rem; }
-  /* line 61, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+  /* line 72, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
   .button:hover {
     color: #353535;
     border-color: #353535; }
@@ -119,6 +129,15 @@ h1, h2, h3, h4, h5, h6, p {
   margin: 1.5rem 0; }
 
 /* line 20, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+a {
+  transition: all 0.1s linear;
+  color: #5b5a86;
+  outline: none; }
+  /* line 25, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+  a:hover {
+    color: #353535; }
+
+/* line 30, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 #container {
   max-width: 68em;
   margin-left: auto;
@@ -129,7 +148,7 @@ h1, h2, h3, h4, h5, h6, p {
     display: table;
     clear: both; }
 
-/* line 24, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 34, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 section#content {
   margin-left: 25.58941%;
   float: left;
@@ -140,7 +159,7 @@ section#content {
   section#content:last-child {
     margin-right: 0; }
 
-/* line 29, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 39, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 #logo {
   float: left;
   display: block;
@@ -150,7 +169,7 @@ section#content {
   /* line 38, /Users/robbie/repos/richmond-computer-club/source/stylesheets/neat/grid/_span-columns.scss */
   #logo:last-child {
     margin-right: 0; }
-  /* line 33, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+  /* line 43, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
   #logo a {
     display: block;
     margin: 0 auto;
@@ -158,15 +177,16 @@ section#content {
     height: 100px;
     background-image: url(../images/logo.svg);
     background-repeat: no-repeat;
-    text-indent: -100%; }
+    text-indent: -100%;
+    font-size: 0px; }
 
-/* line 44, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 55, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 .intro {
   font-size: 1.5rem;
   line-height: 1.5em;
   text-align: center; }
 
-/* line 50, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+/* line 61, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
 .button {
   transition: all 0.1s linear;
   display: inline-block;
@@ -177,7 +197,7 @@ section#content {
   border-radius: .1em;
   text-decoration: none;
   font-size: 1rem; }
-  /* line 61, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
+  /* line 72, /Users/robbie/repos/richmond-computer-club/source/stylesheets/base.css.scss */
   .button:hover {
     color: #353535;
     border-color: #353535; }
